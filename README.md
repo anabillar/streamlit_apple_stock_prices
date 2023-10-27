@@ -215,5 +215,5 @@ print("R-squared (R²):", r_squared)
 ![dor](n14.png)
 
 ## Deployment
-https://appapplestockprice20152020-p97yv9qscttbf4zjeqb6fd.streamlit.app/
+https://app-apple-stock-prices.streamlit.app/
 ![dor](n15.png)
