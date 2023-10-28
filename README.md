@@ -198,7 +198,7 @@ pickle.dump(lr, open(filename,'wb'))
 ```
 ## Evaluation
 Dalam kasus ini saya menggunakan R-squared sebagai metrik evaluasi.
-Fungsi r2_score dari scikit-learn digunakan untuk menghitung R-squared. Nilai R-squared akan memberi tahu sejauh mana model regresi Anda menjelaskan variasi dalam data harga saham aktual. Nilai R-squared berkisar antara 0 dan 1, dan semakin mendekati 1, semakin baik model Anda dalam menjelaskan data.
+Fungsi r2_score dari scikit-learn digunakan untuk menghitung R-squared. Nilai R-squared akan memberi tahu sejauh mana model regresi kita menjelaskan variasi dalam data harga saham aktual. Nilai R-squared berkisar antara 0 dan 1, dan semakin mendekati 1, semakin baik model Anda dalam menjelaskan data.
 ```python
 from sklearn.metrics import r2_score
 ```
