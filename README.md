@@ -4,7 +4,7 @@
 ### Kelas: Pagi A
 
 # Domain Projek
-Wine Quality Dataset ini menjelaskan jumlah berbagai bahan kimia yang ada dalam anggur (wine) dan pengaruhnya terdahap kualitas. Dataset ini dapat dilihat sebagai tugas klasifikasi dan regresi. 
+Wine Quality Dataset ini menjelaskan jumlah berbagai bahan kimia yang ada dalam anggur (wine) dan pengaruhnya terhadap kualitas. Dataset ini dapat dilihat sebagai tugas klasifikasi dan regresi. 
 
 ## Business Understanding
 Dataset ini dapat digunakan untuk melihat jumlah bahan kimia yang dikandung dalam anggur (wine) dan pengaruh terhadap kualitasnya. 
@@ -23,7 +23,7 @@ Wine Quality Dataset ini menjelaskan jumlah berbagai bahan kimia yang ada dalam 
  [Wine Quality Dataset] 
  https://www.kaggle.com/datasets/yasserh/wine-quality-dataset/data
 
-### Variabel pada Apple Stock Price (2015-2020) dataset
+### Variabel pada Wine Quality Dataset
 - Fixed acidity: Keasaman tetap, tingkat keasaman non-volatile (keasaman yang tidak menguap) dalam suatu larutan asam.
 - Volatile acidity: Keasaman volatil, keasaman yang dapat menguap dan memengaruhi aroma wine.
 - Citric acid: Asam sitrat, jenis asam organik dalam wine yang berperan dalam memberikan karakteristik rasa.
@@ -205,7 +205,7 @@ filename = 'klasifikasi_wine_quality.sav'
 pickle.dump(model, open(filename,'wb'))
 ```
 ## Evaluation
-Dalam kasus ini saya menggunakan confusion matrix, accuracy score dan classification report sebagai metrik evaluasi
+Dalam kasus ini saya menggunakan confusion matrix, accuracy score dan classification report sebagai metrik evaluasi.
 Fungsi confusion matrix, accuracy score dan classification report berguna untuk membantu memahami sejauh mana model klasifikasi melakukan prediksi yang benar dan salah.  
 ```python
 accuracy_score(xtest_predict,ytest)
