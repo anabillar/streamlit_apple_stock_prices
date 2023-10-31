@@ -43,6 +43,7 @@ Dataset Apple Stock Price (2015-2020) berisi tentang data harga saham Apple di U
 - SplitFactor (float(64)) = Stock split
 
 ## Data Preparation
+Saya menggunakan Teknik EDA.
 Data yang diambil didapatkan dari kaggle dengan judul Apple Stock Prices (2015-2020) dan link yang bisa diakses sama seperti di atas.
 
 ### Data Discovery and Profiling
